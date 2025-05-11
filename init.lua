@@ -8,6 +8,3 @@ if vim.g.neovide == true then
   vim.o.guifont = "JetBrainsMono Nerd Font:h14"
   vim.api.nvim_set_keymap("n", "<F11>", ":let g:neovide_fullscreen = !g:neovide_fullscreen<CR>", {})
 end
-
-local pywal = require("pywal")
-pywal.setup()
